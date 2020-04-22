@@ -1,4 +1,7 @@
 # ASP.NET Core (.NET Framework)
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: 
 - task: NuGetCommand@2
 - task: NuGetToolInstaller@1
   inputs:
